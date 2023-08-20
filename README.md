@@ -6,7 +6,8 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+The developed neural network regression model aims to predict continuous numerical outputs based on a single input feature. The model architecture consists of an input layer with a single neuron corresponding to the input feature. This is followed by two hidden layers, each containing 5 and 10 neurons respectively, utilizing Rectified Linear Activation (ReLU) for non-linearity. 
+The output layer comprises a single neuron for regression prediction. The model is trained using the RMSprop optimizer and Mean Squared Error (MSE) loss function. Through 2000 epochs of training, it learns to capture the complex relationships within the dataset. The performance is visualized via a training loss plot, and the model's effectiveness is assessed using testing data, employing the root mean squared error (RMSE) metric. Overall, this architecture provides a structured framework for accurate prediction of continuous values through neural network regression.
 
 ## Neural Network Model
 
